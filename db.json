@@ -1,0 +1,11 @@
+{
+  "trioStatus": [
+    { "thrioId": 1, "status": "Available" },
+    { "thrioId": 2, "status": "Busy" },
+    { "thrioId": 3, "status": "Paid break" },
+    { "thrioId": 4, "status": "Unpaid break" },
+    { "thrioId": 5, "status": "Coaching" },
+    { "thrioId": 6, "status": "Nesting" },
+    { "thrioId": 7, "status": "Away" }
+  ]
+}
