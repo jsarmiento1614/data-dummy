@@ -33,9 +33,9 @@
       { "id": 5, "name": "Michael Green" }
     ],
     "agentMapping" : [
-      { "integrationId": 1, "thrioAgentId": "1", "VgiAgentId": "1" },
-      { "integrationId": 1, "thrioAgentId": "2", "VgiAgentId": "3" },
-      { "integrationId": 1, "thrioAgentId": "3", "VgiAgentId": "4" }
+      { "integrationId": 1, "thrioAgentId": "1", "vgiAgentId": "1" },
+      { "integrationId": 1, "thrioAgentId": "2", "vgiAgentId": "3" },
+      { "integrationId": 1, "thrioAgentId": "3", "vgiAgentId": "4" }
     ]
   }
 }
