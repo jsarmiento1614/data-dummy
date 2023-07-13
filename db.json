@@ -31,6 +31,11 @@
       { "id": 3, "name": "Bill Jones" },
       { "id": 4, "name": "Susan Brown" },
       { "id": 5, "name": "Michael Green" }
+    ],
+    "agentMapping" : [
+      { "integrationId": 1, "thrioAgentId": "1", "VgiAgentId": "1" },
+      { "integrationId": 1, "thrioAgentId": "2", "VgiAgentId": "3" },
+      { "integrationId": 1, "thrioAgentId": "3", "VgiAgentId": "4" }
     ]
   }
 }
