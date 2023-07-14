@@ -1,22 +1,28 @@
 {
-  "thrioofferstatus": [
-    { "thrioId": 1, "status": "Available" },
-    { "thrioId": 2, "status": "Busy" },
-    { "thrioId": 3, "status": "Paid break" },
-    { "thrioId": 4, "status": "Unpaid break" },
-    { "thrioId": 5, "status": "Coaching" },
-    { "thrioId": 6, "status": "Nesting" },
-    { "thrioId": 7, "status": "Away" }
-  ],
-  "triomappedstatus" : [
-    { "integrationId": 1, "thrioId": 1, "status": "Active" },
-    { "integrationId": 1, "thrioId": 2, "status": "Active" },
-    { "integrationId": 1, "thrioId": 3, "status": "Active" },
-    { "integrationId": 1, "thrioId": 4, "status": "Break" },
-    { "integrationId": 1, "thrioId": 5, "status": "Break" },
-    { "integrationId": 1, "thrioId": 6, "status": "Traning" },
-    { "integrationId": 1, "thrioId": 7, "status": "Idle" }
-  ],
+  "api/integrations": {
+    "integrationId": 45,
+    "statusses": [
+      { "id": 1, "name": "Available" },
+      { "id": 2, "name": "Busy" },
+      { "id": 3, "name": "Paid break" },
+      { "id": 4, "name": "Unpaid break" },
+      { "id": 5, "name": "Coaching" },
+      { "id": 6, "name": "Nesting" },
+      { "id": 7, "name": "Away" }
+    ]
+  },
+  "api/integrations/thrio": {
+    "integrationId": 45,
+      "statusmappings": [
+        { "integrationId": 1, "thrioId": 1, "status": "Active" },
+        { "integrationId": 1, "thrioId": 2, "status": "Active" },
+        { "integrationId": 1, "thrioId": 3, "status": "Active" },
+        { "integrationId": 1, "thrioId": 4, "status": "Break" },
+        { "integrationId": 1, "thrioId": 5, "status": "Break" },
+        { "integrationId": 1, "thrioId": 6, "status": "Traning" },
+        { "integrationId": 1, "thrioId": 7, "status": "Idle" }
+      ]
+  },
   "callCenterUser": [
     { "id": "1", "name": "John B. Smith" },
     { "id": "2", "name": "Rose J. Doe" },
