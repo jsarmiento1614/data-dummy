@@ -1,6 +1,6 @@
 {
   "integrations": {
-    "integrationId": 45,
+    "id": 45,
     "statusses": [
       { "id": 1, "name": "Available" },
       { "id": 2, "name": "Busy" },
