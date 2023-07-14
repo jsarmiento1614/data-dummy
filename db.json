@@ -18,18 +18,18 @@
     { "integrationId": 1, "thrioId": 7, "status": "Idle" }
   ],
   "callCenterUser": [
-    { "id": 1, "name": "John B. Smith" },
-    { "id": 2, "name": "Rose J. Doe" },
-    { "id": 3, "name": "Alexander Jones" },
-    { "id": 4, "name": "Susan M. Brown" },
-    { "id": 5, "name": "Michael B. Green" }
+    { "id": "1", "name": "John B. Smith" },
+    { "id": "2", "name": "Rose J. Doe" },
+    { "id": "3", "name": "Alexander Jones" },
+    { "id": "4", "name": "Susan M. Brown" },
+    { "id": "5", "name": "Michael B. Green" }
   ],
   "nextGenVirtualUser": [
-      { "id": 1, "name": "John Smith" },
-      { "id": 2, "name": "Jane Doe" },
-      { "id": 3, "name": "Bill Jones" },
-      { "id": 4, "name": "Susan Brown" },
-      { "id": 5, "name": "Michael Green" }
+      { "id": "1", "name": "John Smith" },
+      { "id": "2", "name": "Jane Doe" },
+      { "id": "3", "name": "Bill Jones" },
+      { "id": "4", "name": "Susan Brown" },
+      { "id": "5", "name": "Michael Green" }
   ],
   "agentMapping" : [
       { "integrationId": 1, "thrioAgentId": "1", "vgiAgentId": "1" },
